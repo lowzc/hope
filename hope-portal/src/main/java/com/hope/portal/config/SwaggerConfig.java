@@ -1,7 +1,8 @@
 package com.hope.portal.config;
 
-import com.macro.mall.common.config.BaseSwaggerConfig;
-import com.macro.mall.common.domain.SwaggerProperties;
+
+import com.hope.common.config.BaseSwaggerConfig;
+import com.hope.common.domain.SwaggerProperties;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
@@ -17,9 +18,9 @@ public class SwaggerConfig extends BaseSwaggerConfig {
     public SwaggerProperties swaggerProperties() {
         return SwaggerProperties.builder()
                 .apiBasePackage("com.macro.mall.portal.controller")
-                .title("mall前台系统")
-                .description("mall前台相关接口文档")
-                .contactName("macro")
+                .title("hope前台系统")
+                .description("hope前台相关接口文档")
+                .contactName("hope")
                 .version("1.0")
                 .enableSecurity(true)
                 .build();

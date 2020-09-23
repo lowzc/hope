@@ -1,11 +1,10 @@
 package com.hope.portal.repository;
 
-import com.macro.mall.portal.domain.MemberProductCollection;
+
+import com.hope.portal.domain.MemberProductCollection;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.repository.MongoRepository;
-
-import java.util.List;
 
 /**
  * 商品收藏Repository

@@ -1,9 +1,10 @@
 package com.hope.portal.domain;
 
-import com.macro.mall.model.SmsCoupon;
-import com.macro.mall.model.SmsCouponHistory;
-import com.macro.mall.model.SmsCouponProductCategoryRelation;
-import com.macro.mall.model.SmsCouponProductRelation;
+
+import com.hope.mbg.model.SmsCoupon;
+import com.hope.mbg.model.SmsCouponHistory;
+import com.hope.mbg.model.SmsCouponProductCategoryRelation;
+import com.hope.mbg.model.SmsCouponProductRelation;
 
 import java.util.List;
 

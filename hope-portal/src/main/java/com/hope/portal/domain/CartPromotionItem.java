@@ -1,6 +1,7 @@
 package com.hope.portal.domain;
 
-import com.macro.mall.model.OmsCartItem;
+
+import com.hope.mbg.model.OmsCartItem;
 
 import java.math.BigDecimal;
 
@@ -8,7 +9,7 @@ import java.math.BigDecimal;
  * Created by macro on 2018/8/27.
  * 购物车中促销信息的封装
  */
-public class CartPromotionItem extends OmsCartItem{
+public class CartPromotionItem extends OmsCartItem {
     //促销活动信息
     private String promotionMessage;
     //促销活动减去的金额，针对每个商品

@@ -1,11 +1,12 @@
 package com.hope.portal.controller;
 
-import com.macro.mall.common.api.CommonPage;
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.model.PmsProduct;
-import com.macro.mall.portal.domain.PmsPortalProductDetail;
-import com.macro.mall.portal.domain.PmsProductCategoryNode;
-import com.macro.mall.portal.service.PmsPortalProductService;
+
+import com.hope.common.api.CommonPage;
+import com.hope.common.api.CommonResult;
+import com.hope.mbg.model.PmsProduct;
+import com.hope.portal.domain.PmsPortalProductDetail;
+import com.hope.portal.domain.PmsProductCategoryNode;
+import com.hope.portal.service.PmsPortalProductService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;

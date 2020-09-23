@@ -1,9 +1,11 @@
 package com.hope.portal.service;
 
-import com.macro.mall.model.OmsCartItem;
-import com.macro.mall.portal.domain.CartPromotionItem;
+import com.hope.mbg.model.OmsCartItem;
+import com.hope.portal.domain.CartPromotionItem;
 
 import java.util.List;
+
+;
 
 /**
  * 促销管理Service

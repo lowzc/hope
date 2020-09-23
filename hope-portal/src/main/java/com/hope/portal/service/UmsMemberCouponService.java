@@ -1,9 +1,10 @@
 package com.hope.portal.service;
 
-import com.macro.mall.model.SmsCoupon;
-import com.macro.mall.model.SmsCouponHistory;
-import com.macro.mall.portal.domain.CartPromotionItem;
-import com.macro.mall.portal.domain.SmsCouponHistoryDetail;
+
+import com.hope.mbg.model.SmsCoupon;
+import com.hope.mbg.model.SmsCouponHistory;
+import com.hope.portal.domain.CartPromotionItem;
+import com.hope.portal.domain.SmsCouponHistoryDetail;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

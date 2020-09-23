@@ -1,6 +1,7 @@
 package com.hope.portal.service;
 
-import com.macro.mall.model.UmsMemberReceiveAddress;
+
+import com.hope.mbg.model.UmsMemberReceiveAddress;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

@@ -1,10 +1,11 @@
 package com.hope.portal.service.impl;
 
-import com.macro.mall.model.UmsMember;
-import com.macro.mall.portal.domain.MemberReadHistory;
-import com.macro.mall.portal.repository.MemberReadHistoryRepository;
-import com.macro.mall.portal.service.MemberReadHistoryService;
-import com.macro.mall.portal.service.UmsMemberService;
+
+import com.hope.mbg.model.UmsMember;
+import com.hope.portal.domain.MemberReadHistory;
+import com.hope.portal.repository.MemberReadHistoryRepository;
+import com.hope.portal.service.MemberReadHistoryService;
+import com.hope.portal.service.UmsMemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

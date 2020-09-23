@@ -1,6 +1,7 @@
 package com.hope.portal.service;
 
-import com.macro.mall.portal.domain.OmsOrderReturnApplyParam;
+
+import com.hope.portal.domain.OmsOrderReturnApplyParam;
 
 /**
  * 前台订单退货管理Service

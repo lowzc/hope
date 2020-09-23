@@ -1,7 +1,8 @@
 package com.hope.portal.domain;
 
-import com.macro.mall.model.UmsIntegrationConsumeSetting;
-import com.macro.mall.model.UmsMemberReceiveAddress;
+
+import com.hope.mbg.model.UmsIntegrationConsumeSetting;
+import com.hope.mbg.model.UmsMemberReceiveAddress;
 
 import java.math.BigDecimal;
 import java.util.List;

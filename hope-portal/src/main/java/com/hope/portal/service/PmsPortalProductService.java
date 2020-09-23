@@ -1,8 +1,9 @@
 package com.hope.portal.service;
 
-import com.macro.mall.model.PmsProduct;
-import com.macro.mall.portal.domain.PmsPortalProductDetail;
-import com.macro.mall.portal.domain.PmsProductCategoryNode;
+
+import com.hope.mbg.model.PmsProduct;
+import com.hope.portal.domain.PmsPortalProductDetail;
+import com.hope.portal.domain.PmsProductCategoryNode;
 
 import java.util.List;
 

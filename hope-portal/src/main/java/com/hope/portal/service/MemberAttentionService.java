@@ -1,9 +1,8 @@
 package com.hope.portal.service;
 
-import com.macro.mall.portal.domain.MemberBrandAttention;
-import org.springframework.data.domain.Page;
 
-import java.util.List;
+import com.hope.portal.domain.MemberBrandAttention;
+import org.springframework.data.domain.Page;
 
 /**
  * 会员品牌关注管理Service

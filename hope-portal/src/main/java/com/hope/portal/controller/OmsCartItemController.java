@@ -1,11 +1,12 @@
 package com.hope.portal.controller;
 
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.model.OmsCartItem;
-import com.macro.mall.portal.domain.CartProduct;
-import com.macro.mall.portal.domain.CartPromotionItem;
-import com.macro.mall.portal.service.OmsCartItemService;
-import com.macro.mall.portal.service.UmsMemberService;
+
+import com.hope.common.api.CommonResult;
+import com.hope.mbg.model.OmsCartItem;
+import com.hope.portal.domain.CartProduct;
+import com.hope.portal.domain.CartPromotionItem;
+import com.hope.portal.service.OmsCartItemService;
+import com.hope.portal.service.UmsMemberService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

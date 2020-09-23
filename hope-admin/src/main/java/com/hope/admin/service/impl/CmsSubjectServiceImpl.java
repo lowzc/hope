@@ -5,10 +5,10 @@ import com.hope.admin.service.CmsSubjectService;
 import com.hope.mbg.mapper.CmsSubjectMapper;
 import com.hope.mbg.model.CmsSubject;
 import com.hope.mbg.model.CmsSubjectExample;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -17,7 +17,7 @@ import java.util.List;
  */
 @Service
 public class CmsSubjectServiceImpl implements CmsSubjectService {
-    @Autowired
+    @Resource
     private CmsSubjectMapper subjectMapper;
 
     @Override

@@ -12,8 +12,6 @@ mybatis:
   mapper-locations:
     - classpath:dao/*.xml
     - classpath*:com/**/mapper/*.xml
-    - #实体扫描，多个package用逗号或者分号分隔
-      typeAliasesPackage: com.hope.admin.*;com.hope.common.*
 
 jwt:
   tokenHeader: Authorization #JWT存储的请求头

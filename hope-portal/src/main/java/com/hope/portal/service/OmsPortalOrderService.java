@@ -1,9 +1,10 @@
 package com.hope.portal.service;
 
-import com.macro.mall.common.api.CommonPage;
-import com.macro.mall.portal.domain.ConfirmOrderResult;
-import com.macro.mall.portal.domain.OmsOrderDetail;
-import com.macro.mall.portal.domain.OrderParam;
+
+import com.hope.common.api.CommonPage;
+import com.hope.portal.domain.ConfirmOrderResult;
+import com.hope.portal.domain.OmsOrderDetail;
+import com.hope.portal.domain.OrderParam;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

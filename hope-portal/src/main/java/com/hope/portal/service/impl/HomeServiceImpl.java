@@ -1,14 +1,14 @@
 package com.hope.portal.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.macro.mall.mapper.*;
-import com.macro.mall.model.*;
-import com.macro.mall.portal.dao.HomeDao;
-import com.macro.mall.portal.domain.FlashPromotionProduct;
-import com.macro.mall.portal.domain.HomeContentResult;
-import com.macro.mall.portal.domain.HomeFlashPromotion;
-import com.macro.mall.portal.service.HomeService;
-import com.macro.mall.portal.util.DateUtil;
+import com.hope.mbg.mapper.*;
+import com.hope.mbg.model.*;
+import com.hope.portal.dao.HomeDao;
+import com.hope.portal.domain.FlashPromotionProduct;
+import com.hope.portal.domain.HomeContentResult;
+import com.hope.portal.domain.HomeFlashPromotion;
+import com.hope.portal.service.HomeService;
+import com.hope.portal.util.DateUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;

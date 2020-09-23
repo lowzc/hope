@@ -1,8 +1,9 @@
 package com.hope.portal.controller;
 
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.model.UmsMemberReceiveAddress;
-import com.macro.mall.portal.service.UmsMemberReceiveAddressService;
+
+import com.hope.common.api.CommonResult;
+import com.hope.mbg.model.UmsMemberReceiveAddress;
+import com.hope.portal.service.UmsMemberReceiveAddressService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

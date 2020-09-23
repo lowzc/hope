@@ -1,8 +1,9 @@
 package com.hope.portal.service;
 
-import com.macro.mall.common.api.CommonPage;
-import com.macro.mall.model.PmsBrand;
-import com.macro.mall.model.PmsProduct;
+
+import com.hope.common.api.CommonPage;
+import com.hope.mbg.model.PmsBrand;
+import com.hope.mbg.model.PmsProduct;
 
 import java.util.List;
 

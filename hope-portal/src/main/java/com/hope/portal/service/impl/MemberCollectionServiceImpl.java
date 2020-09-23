@@ -1,17 +1,16 @@
 package com.hope.portal.service.impl;
 
-import com.macro.mall.model.UmsMember;
-import com.macro.mall.portal.domain.MemberProductCollection;
-import com.macro.mall.portal.repository.MemberProductCollectionRepository;
-import com.macro.mall.portal.service.MemberCollectionService;
-import com.macro.mall.portal.service.UmsMemberService;
+
+import com.hope.mbg.model.UmsMember;
+import com.hope.portal.domain.MemberProductCollection;
+import com.hope.portal.repository.MemberProductCollectionRepository;
+import com.hope.portal.service.MemberCollectionService;
+import com.hope.portal.service.UmsMemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 /**
  * 会员收藏Service实现类

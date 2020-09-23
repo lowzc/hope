@@ -1,14 +1,14 @@
 package com.hope.portal.service.impl;
 
 import cn.hutool.core.collection.CollUtil;
-import com.macro.mall.common.exception.Asserts;
-import com.macro.mall.mapper.*;
-import com.macro.mall.model.*;
-import com.macro.mall.portal.dao.SmsCouponHistoryDao;
-import com.macro.mall.portal.domain.CartPromotionItem;
-import com.macro.mall.portal.domain.SmsCouponHistoryDetail;
-import com.macro.mall.portal.service.UmsMemberCouponService;
-import com.macro.mall.portal.service.UmsMemberService;
+import com.hope.common.exception.Asserts;
+import com.hope.mbg.mapper.*;
+import com.hope.mbg.model.*;
+import com.hope.portal.dao.SmsCouponHistoryDao;
+import com.hope.portal.domain.CartPromotionItem;
+import com.hope.portal.domain.SmsCouponHistoryDetail;
+import com.hope.portal.service.UmsMemberCouponService;
+import com.hope.portal.service.UmsMemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

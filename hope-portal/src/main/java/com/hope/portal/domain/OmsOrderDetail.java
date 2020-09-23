@@ -1,7 +1,8 @@
 package com.hope.portal.domain;
 
-import com.macro.mall.model.OmsOrder;
-import com.macro.mall.model.OmsOrderItem;
+
+import com.hope.mbg.model.OmsOrder;
+import com.hope.mbg.model.OmsOrderItem;
 
 import java.util.List;
 

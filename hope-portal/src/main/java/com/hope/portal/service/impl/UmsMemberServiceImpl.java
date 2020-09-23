@@ -1,16 +1,17 @@
 package com.hope.portal.service.impl;
 
-import com.macro.mall.common.exception.Asserts;
-import com.macro.mall.mapper.UmsMemberLevelMapper;
-import com.macro.mall.mapper.UmsMemberMapper;
-import com.macro.mall.model.UmsMember;
-import com.macro.mall.model.UmsMemberExample;
-import com.macro.mall.model.UmsMemberLevel;
-import com.macro.mall.model.UmsMemberLevelExample;
-import com.macro.mall.portal.domain.MemberDetails;
-import com.macro.mall.portal.service.UmsMemberCacheService;
-import com.macro.mall.portal.service.UmsMemberService;
-import com.macro.mall.security.util.JwtTokenUtil;
+
+import com.hope.admin.util.JwtTokenUtil;
+import com.hope.common.exception.Asserts;
+import com.hope.mbg.mapper.UmsMemberLevelMapper;
+import com.hope.mbg.mapper.UmsMemberMapper;
+import com.hope.mbg.model.UmsMember;
+import com.hope.mbg.model.UmsMemberExample;
+import com.hope.mbg.model.UmsMemberLevel;
+import com.hope.mbg.model.UmsMemberLevelExample;
+import com.hope.portal.domain.MemberDetails;
+import com.hope.portal.service.UmsMemberCacheService;
+import com.hope.portal.service.UmsMemberService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

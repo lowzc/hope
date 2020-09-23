@@ -1,6 +1,7 @@
 package com.hope.portal.component;
 
-import com.macro.mall.portal.service.OmsPortalOrderService;
+
+import com.hope.portal.service.OmsPortalOrderService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,10 +1,11 @@
 package com.hope.portal.service.impl;
 
-import com.macro.mall.common.service.RedisService;
-import com.macro.mall.mapper.UmsMemberMapper;
-import com.macro.mall.model.UmsMember;
-import com.macro.mall.portal.service.UmsMemberCacheService;
-import com.macro.mall.security.annotation.CacheException;
+
+import com.hope.admin.annotation.CacheException;
+import com.hope.common.service.RedisService;
+import com.hope.mbg.mapper.UmsMemberMapper;
+import com.hope.mbg.model.UmsMember;
+import com.hope.portal.service.UmsMemberCacheService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

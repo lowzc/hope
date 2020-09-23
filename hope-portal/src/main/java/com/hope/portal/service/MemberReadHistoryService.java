@@ -1,6 +1,7 @@
 package com.hope.portal.service;
 
-import com.macro.mall.portal.domain.MemberReadHistory;
+
+import com.hope.portal.domain.MemberReadHistory;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

@@ -1,11 +1,12 @@
 package com.hope.portal.service.impl;
 
-import com.macro.mall.mapper.UmsMemberReceiveAddressMapper;
-import com.macro.mall.model.UmsMember;
-import com.macro.mall.model.UmsMemberReceiveAddress;
-import com.macro.mall.model.UmsMemberReceiveAddressExample;
-import com.macro.mall.portal.service.UmsMemberReceiveAddressService;
-import com.macro.mall.portal.service.UmsMemberService;
+
+import com.hope.mbg.mapper.UmsMemberReceiveAddressMapper;
+import com.hope.mbg.model.UmsMember;
+import com.hope.mbg.model.UmsMemberReceiveAddress;
+import com.hope.mbg.model.UmsMemberReceiveAddressExample;
+import com.hope.portal.service.UmsMemberReceiveAddressService;
+import com.hope.portal.service.UmsMemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;

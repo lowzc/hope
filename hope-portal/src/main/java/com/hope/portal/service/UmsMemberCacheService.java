@@ -1,6 +1,7 @@
 package com.hope.portal.service;
 
-import com.macro.mall.model.UmsMember;
+
+import com.hope.mbg.model.UmsMember;
 
 /**
  * 会员信息缓存业务类

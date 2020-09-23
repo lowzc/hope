@@ -5,6 +5,7 @@ import com.hope.mbg.model.OmsCompanyAddressExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+
 public interface OmsCompanyAddressMapper {
     long countByExample(OmsCompanyAddressExample example);
 

@@ -1,9 +1,10 @@
 package com.hope.portal.domain;
 
-import com.macro.mall.model.CmsSubject;
-import com.macro.mall.model.PmsBrand;
-import com.macro.mall.model.PmsProduct;
-import com.macro.mall.model.SmsHomeAdvertise;
+
+import com.hope.mbg.model.CmsSubject;
+import com.hope.mbg.model.PmsBrand;
+import com.hope.mbg.model.PmsProduct;
+import com.hope.mbg.model.SmsHomeAdvertise;
 import lombok.Getter;
 import lombok.Setter;
 

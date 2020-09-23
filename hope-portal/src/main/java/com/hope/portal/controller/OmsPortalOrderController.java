@@ -1,11 +1,12 @@
 package com.hope.portal.controller;
 
-import com.macro.mall.common.api.CommonPage;
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.portal.domain.ConfirmOrderResult;
-import com.macro.mall.portal.domain.OmsOrderDetail;
-import com.macro.mall.portal.domain.OrderParam;
-import com.macro.mall.portal.service.OmsPortalOrderService;
+
+import com.hope.common.api.CommonPage;
+import com.hope.common.api.CommonResult;
+import com.hope.portal.domain.ConfirmOrderResult;
+import com.hope.portal.domain.OmsOrderDetail;
+import com.hope.portal.domain.OrderParam;
+import com.hope.portal.service.OmsPortalOrderService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
@@ -73,8 +74,8 @@ public class OmsPortalOrderController {
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     @ResponseBody
     public CommonResult<CommonPage<OmsOrderDetail>> list(@RequestParam Integer status,
-                                                   @RequestParam(required = false, defaultValue = "1") Integer pageNum,
-                                                   @RequestParam(required = false, defaultValue = "5") Integer pageSize) {
+                                                         @RequestParam(required = false, defaultValue = "1") Integer pageNum,
+                                                         @RequestParam(required = false, defaultValue = "5") Integer pageSize) {
         CommonPage<OmsOrderDetail> orderPage = portalOrderService.list(status,pageNum,pageSize);
         return CommonResult.success(orderPage);
     }

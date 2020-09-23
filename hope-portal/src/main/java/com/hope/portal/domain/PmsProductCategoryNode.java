@@ -1,6 +1,7 @@
 package com.hope.portal.domain;
 
-import com.macro.mall.model.PmsProductCategory;
+
+import com.hope.mbg.model.PmsProductCategory;
 import lombok.Getter;
 import lombok.Setter;
 

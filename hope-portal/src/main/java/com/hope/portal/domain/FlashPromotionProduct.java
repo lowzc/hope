@@ -1,6 +1,7 @@
 package com.hope.portal.domain;
 
-import com.macro.mall.model.PmsProduct;
+
+import com.hope.mbg.model.PmsProduct;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,7 +13,7 @@ import java.math.BigDecimal;
  */
 @Getter
 @Setter
-public class FlashPromotionProduct extends PmsProduct{
+public class FlashPromotionProduct extends PmsProduct {
     private BigDecimal flashPromotionPrice;
     private Integer flashPromotionCount;
     private Integer flashPromotionLimit;

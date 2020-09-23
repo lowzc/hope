@@ -1,9 +1,10 @@
 package com.hope.portal.service;
 
-import com.macro.mall.model.CmsSubject;
-import com.macro.mall.model.PmsProduct;
-import com.macro.mall.model.PmsProductCategory;
-import com.macro.mall.portal.domain.HomeContentResult;
+
+import com.hope.mbg.model.CmsSubject;
+import com.hope.mbg.model.PmsProduct;
+import com.hope.mbg.model.PmsProductCategory;
+import com.hope.portal.domain.HomeContentResult;
 
 import java.util.List;
 

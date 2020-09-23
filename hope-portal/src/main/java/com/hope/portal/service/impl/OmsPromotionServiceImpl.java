@@ -1,17 +1,17 @@
 package com.hope.portal.service.impl;
 
-import com.macro.mall.model.OmsCartItem;
-import com.macro.mall.model.PmsProductFullReduction;
-import com.macro.mall.model.PmsProductLadder;
-import com.macro.mall.model.PmsSkuStock;
-import com.macro.mall.portal.dao.PortalProductDao;
-import com.macro.mall.portal.domain.CartPromotionItem;
-import com.macro.mall.portal.domain.PromotionProduct;
-import com.macro.mall.portal.service.OmsPromotionService;
+
+import com.hope.mbg.model.OmsCartItem;
+import com.hope.mbg.model.PmsProductFullReduction;
+import com.hope.mbg.model.PmsProductLadder;
+import com.hope.mbg.model.PmsSkuStock;
+import com.hope.portal.dao.PortalProductDao;
+import com.hope.portal.domain.CartPromotionItem;
+import com.hope.portal.domain.PromotionProduct;
+import com.hope.portal.service.OmsPromotionService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.util.CollectionUtils;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

@@ -1,9 +1,8 @@
 package com.hope.portal.service;
 
-import com.macro.mall.portal.domain.MemberProductCollection;
-import org.springframework.data.domain.Page;
 
-import java.util.List;
+import com.hope.portal.domain.MemberProductCollection;
+import org.springframework.data.domain.Page;
 
 /**
  * 会员商品收藏管理Service

@@ -1,10 +1,11 @@
 package com.hope.portal.controller;
 
-import com.macro.mall.common.api.CommonPage;
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.model.PmsBrand;
-import com.macro.mall.model.PmsProduct;
-import com.macro.mall.portal.service.PortalBrandService;
+
+import com.hope.common.api.CommonPage;
+import com.hope.common.api.CommonResult;
+import com.hope.mbg.model.PmsBrand;
+import com.hope.mbg.model.PmsProduct;
+import com.hope.portal.service.PortalBrandService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

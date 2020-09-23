@@ -1,11 +1,10 @@
 package com.hope.portal.repository;
 
-import com.macro.mall.portal.domain.MemberReadHistory;
+
+import com.hope.portal.domain.MemberReadHistory;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.repository.MongoRepository;
-
-import java.util.List;
 
 /**
  * 会员商品浏览历史Repository

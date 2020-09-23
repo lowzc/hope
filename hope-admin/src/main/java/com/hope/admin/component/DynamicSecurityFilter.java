@@ -1,6 +1,5 @@
 package com.hope.admin.component;
 
-import com.hope.admin.config.IgnoreUrlsConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.access.SecurityMetadataSource;

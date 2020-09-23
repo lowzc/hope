@@ -5,9 +5,9 @@ import com.hope.admin.service.OmsCompanyAddressService;
 import com.hope.mbg.mapper.OmsCompanyAddressMapper;
 import com.hope.mbg.model.OmsCompanyAddress;
 import com.hope.mbg.model.OmsCompanyAddressExample;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -16,7 +16,7 @@ import java.util.List;
  */
 @Service
 public class OmsCompanyAddressServiceImpl implements OmsCompanyAddressService {
-    @Autowired
+    @Resource
     private OmsCompanyAddressMapper companyAddressMapper;
     @Override
     public List<OmsCompanyAddress> list() {

@@ -1,16 +1,16 @@
 package com.hope.portal.service.impl;
 
 import cn.hutool.core.collection.CollUtil;
-import com.macro.mall.mapper.OmsCartItemMapper;
-import com.macro.mall.model.OmsCartItem;
-import com.macro.mall.model.OmsCartItemExample;
-import com.macro.mall.model.UmsMember;
-import com.macro.mall.portal.dao.PortalProductDao;
-import com.macro.mall.portal.domain.CartProduct;
-import com.macro.mall.portal.domain.CartPromotionItem;
-import com.macro.mall.portal.service.OmsCartItemService;
-import com.macro.mall.portal.service.OmsPromotionService;
-import com.macro.mall.portal.service.UmsMemberService;
+import com.hope.mbg.mapper.OmsCartItemMapper;
+import com.hope.mbg.model.OmsCartItem;
+import com.hope.mbg.model.OmsCartItemExample;
+import com.hope.mbg.model.UmsMember;
+import com.hope.portal.dao.PortalProductDao;
+import com.hope.portal.domain.CartProduct;
+import com.hope.portal.domain.CartPromotionItem;
+import com.hope.portal.service.OmsCartItemService;
+import com.hope.portal.service.OmsPromotionService;
+import com.hope.portal.service.UmsMemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;

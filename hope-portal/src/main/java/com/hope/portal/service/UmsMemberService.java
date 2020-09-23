@@ -1,6 +1,7 @@
 package com.hope.portal.service;
 
-import com.macro.mall.model.UmsMember;
+
+import com.hope.mbg.model.UmsMember;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.transaction.annotation.Transactional;
 

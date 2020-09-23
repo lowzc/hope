@@ -1,13 +1,14 @@
 package com.hope.portal.controller;
 
-import com.macro.mall.common.api.CommonResult;
-import com.macro.mall.model.SmsCoupon;
-import com.macro.mall.model.SmsCouponHistory;
-import com.macro.mall.portal.domain.CartPromotionItem;
-import com.macro.mall.portal.domain.SmsCouponHistoryDetail;
-import com.macro.mall.portal.service.OmsCartItemService;
-import com.macro.mall.portal.service.UmsMemberCouponService;
-import com.macro.mall.portal.service.UmsMemberService;
+
+import com.hope.common.api.CommonResult;
+import com.hope.mbg.model.SmsCoupon;
+import com.hope.mbg.model.SmsCouponHistory;
+import com.hope.portal.domain.CartPromotionItem;
+import com.hope.portal.domain.SmsCouponHistoryDetail;
+import com.hope.portal.service.OmsCartItemService;
+import com.hope.portal.service.UmsMemberCouponService;
+import com.hope.portal.service.UmsMemberService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
